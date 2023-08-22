@@ -11,7 +11,6 @@ def towers(n, start, end):
     # pass in the next disk, and move it.
         towers(n - 1, start, other)
         print_move(start, end)
-    # pass in the next disk, and move it.
         towers(n - 1, other, end)
 
 towers(3,1,3)
